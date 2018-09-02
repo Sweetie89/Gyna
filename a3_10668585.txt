@@ -1,0 +1,57 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//variable declaration
+	int score;
+	
+	//input //output
+	cout<<"Please enter your score between 0 and 100"<<endl;
+	cin>>score;
+	 
+	//loop
+	if(score>=80&&score<=100)
+	{
+		cout<<"Your grade is A"<<endl;
+	}
+	else if(score>=75&&score<=79)
+	{
+		cout<<"Your grade is B+"<<endl;
+	}
+	else if(score>=70&&score<=74)
+	{
+		cout<<"Your grade is B"<<endl;
+	}
+	else if(score>=65&&score<=69)
+	{
+		cout<<"Your grade is C+"<<endl;
+	}
+	else if(score>=60&&score<=64)
+	{
+		cout<<"Your grade is a C "<<endl;
+	}
+	else if(score>=55&&score<=59)
+	{
+		cout<<"Your grade is a D+ "<<endl;
+	}
+	else if(score>=50&&score<=54)
+	{
+		cout<<"Your grade is a D "<<endl;
+	}
+	else if(score>=45&&score<=49)
+	{
+		cout<<"Your grade is E"<<endl;
+	}
+	else if(score>=0&&score<=44)
+	{
+		cout<<"Your grade is an F"<<endl;
+	}
+	else
+	{
+		cout<<"Wrong detail"<<endl;
+	}
+		
+	return 0;
+	
+
+}
